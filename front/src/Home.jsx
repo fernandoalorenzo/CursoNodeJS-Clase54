@@ -7,9 +7,9 @@ import Footer from "./footer/Footer";
 
 const App = () => {
 	const [objectOption, setObjectOption] = useState({
-		header: "Home",
-		title: "",
-		content: "",
+		header: "Encabezado Home",
+		title: "Titulo Home",
+		content: "Contenido Home",
 	});
 	return (
 		<div>

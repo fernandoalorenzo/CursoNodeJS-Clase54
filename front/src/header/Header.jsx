@@ -3,7 +3,7 @@ import React from "react";
 
 const Header = () => {
 	return (
-		<header>
+		<header className="bg-warning">
 			<h1>SPA - Clase 54</h1>
 		</header>
 	);
