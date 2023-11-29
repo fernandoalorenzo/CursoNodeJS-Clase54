@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-const Option = (props) => {
+const Pagina = (props) => {
 	return (
 		<div className="card border-primary">
 			<div className="card-header bg-primary text-white">
@@ -10,11 +10,11 @@ const Option = (props) => {
 					<h4>{props.title}</h4>
 				</div>
 				<div className="card-text">
-					<p>{props.content}</p>
+					<p className="texto">{props.content}</p>
 				</div>
 			</div>
 		</div>
 	);
 };
 
-export default Option
+export default Pagina;
